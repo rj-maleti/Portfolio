@@ -23,50 +23,65 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <CgCPlusPlus size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>C++</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <DiPython size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>Python</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <DiJavascript1 size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>JavaScript</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <DiHtml5 size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>HTML5</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <DiCss3 size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>CSS3</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiMysql size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>MySQL</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftsqlserver />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiMicrosoftsqlserver size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>MS SQL Server</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiPowerbi size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>Power BI</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiTableau size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>Tableau</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPandas />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiPandas size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>Pandas</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNumpy />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiNumpy size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>NumPy</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiTensorflow size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>TensorFlow</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiPytorch size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>PyTorch</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiOpencv />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <SiOpencv size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>OpenCV</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <Col xs={4} md={2} className="tech-icons text-center">
+        <DiGit size={50} />
+        <p style={{ fontSize: "0.9rem", marginTop: "8px" }}>Git</p>
       </Col>
     </Row>
   );

@@ -20,43 +20,63 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are some of the key projects I have worked on.
         </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* Starbucks Segmentation */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={starbucks}
               isBlog={false}
               title="Starbucks Customer Segmentation"
-              description="Performed data cleaning, preprocessing, and feature engineering on 300K+ records. Applied PCA and K-means clustering to group 17,000 customers and derived insights on demographics for targeted promotions."
+              description="Consolidated & pre-processed 300K+ entries, engineered features, applied PCA + K-Means to cluster 17K customers, and inferred demographics for targeted promos."
+              modalContent={`• Consolidated and pre-processed three datasets containing 300,000+ entries; ensured cleanliness and merged where necessary.
+• Conducted EDA, engineered features, and applied PCA to reduce dimensionality.
+• Employed K-Means to cluster 17,000 customers; chose k via Silhouette Score and SSE, and visualized/optimized with t-SNE.
+• Inferred primary demographic traits per cluster to design the most effective promotional strategies.`}
               ghLink="https://github.com/rj-maleti/Starbucks-Customer-Segmentation-.git"
             />
           </Col>
 
+          {/* Forecasting Automobile Sales */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={forecasting}
               isBlog={false}
               title="Forecasting Analysis of Automobile Sales"
-              description="Developed forecasting models (SARIMA, Holt-Winters, LSTM) for EV and Non-EV sales in India (2015–2024). Applied preprocessing (seasonality adjustment, outlier detection) and evaluated performance using MAPE, RMSE, and R²."
+              description="Built SARIMA, Holt-Winters & LSTM to forecast EV/Non-EV sales in India (2015–2024); preprocessing + evaluation with MAPE, RMSE, R²."
+              modalContent={`• Developed time-series forecasting models (SARIMA, Holt-Winters, LSTM) to predict EV and Non-EV sales in India (2015–2024).
+• Performed preprocessing: outlier detection and seasonality adjustment.
+• Achieved strong accuracy measured via MAPE, RMSE, and R².
+• Delivered insights to optimize supply chain, resource allocation, and production alignment with demand.`}
               ghLink="https://github.com/rj-maleti/Time-Series-Forecasting-of-Automobiles"
             />
           </Col>
 
+          {/* Credit Card Fraud Analysis */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fraud}
               isBlog={false}
               title="Credit Card Fraud Analysis"
-              description="Processed and visualized imbalanced datasets. Compared ML models (Logistic Regression, SVM, KNN, XGBoost, Neural Nets). Achieved 95% accuracy with KNN and optimized results using grid search."
+              description="Handled imbalanced data, ran multiple ML models with grid search; KNN topped with 95% accuracy and 93% recall."
+              modalContent={`• Processed and visualized an imbalanced dataset using Python; performed EDA for deeper insights.
+• Tuned Logistic Regression, Decision Tree, SVM, KNN, XGBoost, and Neural Networks via grid search.
+• Achieved 93% recall with KNN and 95% overall accuracy.
+• Evaluated using F1 score, Confusion Matrix, and ROC curve for robust detection.`}
               ghLink="https://github.com/rj-maleti/Credit-Card-Fraud-Detection.git"
             />
           </Col>
 
+          {/* Power BI Dashboards */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dashboard}
               isBlog={false}
               title="Power BI Dashboards"
-              description="Built interactive dashboards for E-commerce, HR, and Zomato Sales Analysis using Power BI, MySQL, and Excel. Leveraged DAX functions, data modeling, and visualization techniques to generate actionable business insights."
+              description="Interactive dashboards for E-commerce, HR, and Zomato sales using Power BI, SQL & Excel; DAX modeling for actionable insights."
+              modalContent={`• Built interactive dashboards for E-commerce, HR, and Zomato Sales using Power BI, MySQL, and Excel.
+• Used DAX, star schemas, and clear visuals to highlight KPIs, attrition, customer behavior, and sales trends.
+• Enabled data-driven decisions by integrating multiple sources and crafting insight-focused layouts.`}
               ghLink="https://github.com/rj-maleti/Power-BI-Interactive-Dashboards.git"
             />
           </Col>

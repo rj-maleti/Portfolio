@@ -36,8 +36,8 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Combining data-driven insights with creativity to make a real-world impact!"
+          <p style={{ color: "rgb(155 126 172)" , fontSize:"18px"}}>
+            "I enjoy breaking down complex data and shaping it into real solutions."
           </p>
           <footer className="blockquote-footer">Rajneesh Maleti</footer>
         </blockquote>
