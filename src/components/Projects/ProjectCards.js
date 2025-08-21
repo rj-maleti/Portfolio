@@ -54,6 +54,7 @@ function ProjectCards(props) {
       <Modal
         show={showModal}
         onHide={handleClose}
+         fullscreen
         centered
         dialogClassName="glass-modal"
         backdropClassName="glass-backdrop"
@@ -62,7 +63,9 @@ function ProjectCards(props) {
           <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ textAlign: "justify" }}>
-          {props.modalContent || props.description}
+          
+          <div dangerouslySetInnerHTML={{ __html: props.modalContent || props.description }} />
+
         </Modal.Body>
         <Modal.Footer>
           <Button className="glass-btn" onClick={handleClose}>
